@@ -1,0 +1,10 @@
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url(https://live.staticflickr.com/4141/4778137977_2542203a1f_b.jpg);
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    color: #ffff00;
+}
