@@ -1,3 +1,7 @@
+body{
+    background-color: #b0b0b0;
+}
+
 .jumbotron {
     display: flex;
     align-items: center;
@@ -7,13 +11,8 @@
 
 .jumbotron h1 {
     font-family: 'Work Sans', sans-serif;
-    color: #ffff00;
-    text-shadow: 2px 5px 2px #000000;
-}
-
-.icon {
-    display: flex;
-    justify-content: center;
+    color: #ffffff;
+    text-shadow: -2px 5px 2px #000000;
 }
 
 .icon:hover {
@@ -21,13 +20,23 @@
     filter: invert(1);
 }
 
+figure {
+    margin-top: 20px; 
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
 .summary {
     -webkit-border-radius: 32px;
     -moz-border-radius: 32px;
     border-radius: 32px;
-    text-shadow: -3px -3px 0px #000000;
+    text-shadow: -2px 2px 2px #000000;
     background-color: #1b8adb;
     padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 12pt;
     color: #FFFFFF;
