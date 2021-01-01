@@ -15,3 +15,8 @@
     display: flex;
     justify-content: center;
 }
+
+.icon:hover {
+    transition: 0.4s;
+    filter: invert(1);
+}
