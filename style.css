@@ -20,3 +20,16 @@
     transition: 0.4s;
     filter: invert(1);
 }
+
+.summary {
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    text-shadow: -3px -3px 0px #000000;
+    background-color: #1b8adb;
+    padding: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    color: #FFFFFF;
+    text-align: center;
+}
